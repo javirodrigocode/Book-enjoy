@@ -1,0 +1,14 @@
+/* Estilos para el contenedor del formulario */
+.custom-background {
+    background-color: #88ccf1;
+}
+
+.container {
+    background-color: #caf0f8; /* Color de fondo */
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+#modalCancelarReserva .modal-content {
+    background-color: #caf0f8;
+}

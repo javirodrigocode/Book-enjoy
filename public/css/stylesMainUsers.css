@@ -1,0 +1,130 @@
+.datos-personales, .reservas {
+    background-color: #f2f4ff; /* Color de fondo de la página */
+    border-radius: 10px; 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    border: 2px solid #caf0f8; /* Color del borde y grosor */
+}
+    
+
+.custom-background {
+    background-color: #88ccf1;
+}
+h1 {
+    color: white; 
+}
+
+#modalConfirmacionEliminar .modal-content {
+    background-color: #caf0f8;
+}
+
+#usuarioEliminadoModal .modal-content{
+    background-color: #caf0f8;
+}
+
+#modalReserva .modal-content {
+    background-color: #caf0f8;
+
+} 
+
+#cambiosGuardadosModal .modal-content {
+    background-color: #caf0f8;
+}
+
+#modalMessage .modal-content {
+    background-color: #caf0f8;
+}
+
+/* Personaliza otros elementos del calendario según sea necesario */
+
+#contenedorTurnos {
+    position: relative; /* Asegura que los botones estén posicionados correctamente */
+    margin-top: 20px; /* Añadir margen superior para separar del calendario */
+    
+}
+
+#listaTurnos {
+    display: none;
+    position: fixed;
+    top: 145px;
+    left: 350px;
+    z-index: 100;
+    background-color: #caf0f8;
+    border: 1px solid #ccc;
+    padding: 20px; /* Aumenta el espacio interior */
+    max-height: auto; /* Ajusta la altura máxima */
+    height: 580px;
+    width: 570px;
+    
+}
+
+#listaTurnos li {
+    list-style-type: none;
+    margin: 10px 0; /* Aumenta el margen superior e inferior */
+    padding: 15px; /* Aumenta el espacio interior de cada turno */
+    border: 1px solid #ccc; /* Agrega bordes alrededor de cada turno */
+    border-radius: 5px; /* Agrega bordes redondeados */
+    cursor: pointer;
+}
+
+#listaTurnos .disponible {
+    background-color: rgb(43, 170, 43); /* Color de fondo para turnos disponibles */
+}
+
+#listaTurnos .disponible:hover {
+    background-color: darkgreen; /* Color de fondo al pasar el cursor sobre turnos disponibles */
+}
+
+#listaTurnos .reservado {
+    background-color: red; /* Color de fondo para turnos reservados */
+}
+
+#listaTurnos .disponible.selected {
+    background-color: darkgreen; /* Color de fondo para turnos seleccionados */
+}
+
+
+#contenedorBotones {
+    position: flex;
+    bottom: 0px;
+    left: 0;
+    z-index: 200;
+    
+    display: none; /* Inicialmente oculto */
+    
+}
+
+#contenedorBotones button {
+    margin: 0 10px; /* Espacio entre los botones, ajusta según sea necesario */
+}
+
+.cuadradito {
+    display: inline-block;
+    width: 20px; /* Ancho deseado */
+    height: 20px; /* Altura deseada */
+    margin: 5px;
+    
+    border-radius: 3px; /* Bordes redondeados */
+    font-size: 12px; /* Tamaño de fuente */  
+   
+    
+}
+
+.bg-success {
+    background-color: #28a745; /* Color de fondo para los cuadraditos de disponibilidad */
+}
+
+.bg-danger {
+    background-color: #dc3545; /* Color de fondo para los cuadraditos de reserva */
+}
+
+.contenedor-disponibilidad,
+.contenedor-reserva {
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+}
+
+.fecha-seleccionada {
+    background-color: #90e0ef; /* Color de fondo para la fecha seleccionada */
+    color: #ffffff; /* Color del texto para la fecha seleccionada */
+}
+

@@ -1,0 +1,226 @@
+/* Estilo para la tabla de usuarios */
+#tablaUsuarios {   
+    margin-left: 200px;
+    margin-right: auto;
+    width: 80%;
+    background-color: #caf0f8; 
+    border-collapse: collapse; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#tablaUsuarios th,
+#tablaUsuarios td {
+    padding: 10px; /* Espaciado interno de las celdas */
+    border: 1px solid #000; /* Borde de las celdas */
+}
+
+#tablaUsuarios th {
+    background-color: #0096c7; /* Color de fondo de las celdas de encabezado */
+    color: #fff; /* Color del texto del encabezado */
+}
+
+#tablaUsuarios td {
+    background-color: #caf0f8; /* Color de fondo de las celdas de datos */
+    color: #000; /* Color del texto de las celdas de datos */
+}
+
+#tabla-instalaciones th,
+#tabla-instalaciones td {
+    padding: 10px; 
+    border: 1px solid #000;
+    text-align: center;
+}
+
+#tabla-instalaciones th {
+    background-color: #0096c7; /* Color de fondo de las celdas de encabezado */
+    color: #fff; /* Color del texto del encabezado */
+}
+
+#tabla-instalaciones td {
+    background-color: #caf0f8; /* Color de fondo de las celdas de datos */
+    color: #000; /* Color del texto de las celdas de datos */
+}
+
+#btn-atras {    
+    margin-bottom: 15px;
+}
+
+/* Estilo para la tabla de instalaciones */
+#tabla-instalaciones {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #caf0f8; 
+    border-collapse: collapse; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+#contenedor-campos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f2f4ff;
+    border: 2px solid;
+    z-index: 1;
+}
+
+#tabla-nueva-instalacion {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    background-color: #88ccf1 !important;
+    border: 2px solid;
+    z-index: 2;
+}
+
+#tabla-nueva-instalacion td,
+#tabla-nueva-instalacion th {
+    border: 1px solid #000;
+    padding: 8px;
+}
+
+
+#modalModificarHorario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);       
+    padding: 20px;
+    margin-top: 350px;
+    width: 500px;
+}
+
+#formularioModificarHorario{
+    background-color: #88ccf1;
+    border: 2px solid #000;
+    padding: 20px;
+}
+
+/* Estilo general para los modales */
+.modal {
+    display: none; /* Oculto por defecto */
+    position: fixed; /* Fijo en la pantalla */
+    
+    left: 0;
+    top: 0;
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Altura completa */
+    overflow: auto; /* Habilitar desplazamiento si es necesario */
+    background-color: rgba(0, 0, 0, 0.4); /* Negro con opacidad */
+    display: flex; /* Flexbox para centrado */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+}
+
+/* Estilo del contenido del modal */
+.modal .modal-content {
+    position: relative;
+    width: 70%; /* Ancho del contenido */
+    max-width: 1000px; /* Ancho máximo */
+    background-color: #caf0f8; /* Color de fondo */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Sombra */
+    padding: 20px; /* Relleno */
+    overflow: hidden; /* Garantizar que el contenido se mantenga dentro */
+}
+
+/* Estilo del texto del contenido del modal */
+.modal .modal-content h2 {
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilo para los botones del modal */
+.modal .btn {
+    width: 100px; /* Ancho de los botones */
+    margin-right: 10px; /* Margen derecho */
+}
+
+
+/* Modal delete content box */
+.modal-delete .modal-content-delete {
+    position: relative;
+    margin-top: 400px;
+    margin-left: 625px;
+    width: 30%; 
+    max-width: 1000px; 
+    background-color: #caf0f8;
+    border-radius: 10px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+    padding: 20px; 
+    overflow: hidden;
+}
+
+/* Estilos para el modal message */
+.modal-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     
+    background-color: #caf0f8; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 400px; 
+    max-height: 125px;    
+}
+
+.modal-message p {
+    margin: 0;
+}
+
+.modal-message button {
+    margin-top: 10px;    
+}
+
+#tablaReservas {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; 
+    height: 80%;
+}
+
+#tablaReservas tfoot {
+    background-color: #caf0f8;
+    height: 50%;
+    padding: 5px;
+}
+
+#tablaReservas tfoot .container {
+    width: 100%; /* Ajustar al ancho de la tabla */
+    padding: 5px;
+  }
+  
+  #tablaReservas tfoot .btnCrear {
+    margin-left: 20px;
+    margin-right: 10px; /* Espacio entre el botón y la paginación */
+  }
+  
+  #tablaReservas tfoot .pagination {
+    margin-left: auto; 
+    margin-right: 20px;/* Mover la paginación al extremo derecho */
+  }
+   
+  #tablaReservas th, #tablaReservas td {
+    padding: 8px; /* Ajusta el padding de las celdas */
+    font-size: 14px; /* Ajusta el tamaño de fuente */
+}
+
+  #tablaReservas tr {
+    height: 30px; /* Ajusta la altura de las filas */
+}
+
+.tbody-reservas {    
+    background-color: #caf0f8; 
+    border-collapse: collapse; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#btnCrearReserva {
+    margin-left: 20px;
+}

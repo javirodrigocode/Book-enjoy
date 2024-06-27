@@ -1,0 +1,46 @@
+/* Estilos para el contenedor del formulario */
+.custom-background {
+    background-color: #88ccf1;
+}
+
+/* Estilos para el formulario */
+form {
+    color: black;
+    background-color: #caf0f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 65%; /* Ancho del formulario */
+    margin-top: 150px;
+    
+}
+
+texto-contenedor {
+    height: 100%; /* Altura del contenedor */
+    display: flex; /* Para alinear verticalmente el texto */
+    justify-content: center; /* Para centrar horizontalmente el texto */
+    align-items: center; /* Para centrar verticalmente el texto */
+}
+
+.texto {
+    margin-top: 200px;
+    color: white; /* Texto en color blanco */
+    text-align: center; /* Texto centrado horizontalmente */
+}
+
+.bg-header {
+    background-image: url('../Images/padel.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Ajustar la imagen para cubrir todo el encabezado */
+    background-position: center; /* Centrar la imagen */
+    color: white; /* Color del texto para mejor legibilidad */
+    padding: 20px; /* Añadir un poco de espacio interno al encabezado */
+}
+
+
+
+
+
+
+
+
+

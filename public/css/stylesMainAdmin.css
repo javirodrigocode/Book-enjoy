@@ -1,0 +1,51 @@
+.seccion {    
+    text-align: center; /* Centrar el contenido */
+    margin-bottom: 40px; /* Más espacio inferior entre las secciones */
+    padding: 20px; /* Añadir espacio interno a las secciones */
+    border-radius: 15px; /* Añadir bordes redondeados a las secciones */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2); /* Añadir sombra a las secciones */
+}
+
+
+.custom-background {
+    background-color:#88ccf1 ;
+}
+
+/* Estilo para centrar los botones */
+.seccion .botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/* Estilo para separar las imágenes y los botones */
+.seccion img {
+    width: 100%; /* Asegurar que la imagen ocupe todo el ancho del contenedor */
+    border-radius: 10px; /* Redondear las esquinas de la imagen */
+}
+
+/* Estilo para el botón de cerrar sesión */
+.cerrar-sesion {
+    position: fixed;
+    bottom: 50px;
+    right: 70px;
+}
+
+#adminMessage {
+    margin-left: 0; /* Eliminar margen izquierdo */
+    margin-right: 50px; /* Centrar en el margen derecho */
+    margin-top: 140px;
+}
+
+#userMessage {
+    margin-right: 0; /* Eliminar margen derecho */
+    margin-left: 50px; /* Centrar en el margen izquierdo */
+    margin-top: 75px;
+}
+
+.botones {
+    margin-top: 20px; /* Más espacio superior entre la imagen y los botones */
+}
+
