@@ -1,0 +1,62 @@
+# Ignorar archivos y directorios generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de log
+logs/
+*.log
+
+# Directorios de dependencias
+node_modules/
+vendor/
+
+# Archivos de entornos locales
+.env
+.env.local
+.env.*.local
+.phpenv
+
+# Archivos de configuración de XAMPP
+*.ini
+*.cnf
+
+# Archivos de configuración de la IDE
+.vscode/
+.idea/
+
+# Archivos temporales y caché
+tmp/
+cache/
+*.tmp
+
+# Ignorar compilados y generados automáticamente
+public/js/*.map
+public/css/*.map
+public/storage/
+
+# Ignorar archivos de configuración específicos del servidor web
+.htaccess
+web.config
+
+# Ignorar bases de datos locales
+*.sql
+*.sqlite
+*.db
+
+# Ignorar dependencias de PHP y Composer
+composer.lock
+composer.phar
+
+# Ignorar dependencias de Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar archivos de PHPUnit
+.phpunit.result.cache
+
+# Ignorar cobertura de pruebas
+coverage/
+
+# Ignorar archivos de configuración específicos de Bootstrap
+bootstrap/.sass-cache/
