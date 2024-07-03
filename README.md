@@ -2,6 +2,11 @@
 
 Este es mi proyecto de DAW donde he creado una aplicación web para la gestión de reservas de espacios comunitarios.
 
+## Autor 
+**Javi Rodrigo**
+
+* [LinkedIn](http://www.linkedin.com/in/javirodrigocode/)
+
 ## Tecnologías Utilizadas
 
 - **Backend**: PHP integrado con HTML
